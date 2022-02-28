@@ -4,6 +4,8 @@ PopupSize Output Filter
 Introduction
 ------------
 
+Fork from https://git.dotlan.net/dhoffend/otrs-popupsize and migrated to OTOBO 10.0.x
+
 This plugin overrides the hardcoded popup window dimensions and positions
 using Sys::Config variables.
 
@@ -14,10 +16,11 @@ Install
 -------
 
 Create module
-
-    git clone git@<hostname>:dhoffend/otobo-popupsize
-    cd /opt/otobo
-    bin/otobo.Console.pl Dev::Package::Build ~/otobo-popupsize/PopupSize.sopm ~/
+    
+    su - otobo 
+    cd ~/
+    git clone https://github.com/dev-wotan-monitoring/otobo-popupsize.git
+    /opt/otobo/bin/otobo.Console.pl Dev::Package::Build ~/otobo-popupsize/PopupSize.sopm ~/
     Building package...
     Done.
 
