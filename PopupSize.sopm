@@ -3,8 +3,8 @@
     <Name>PopupSize</Name>
     <Version>0.0.1</Version>
     <Framework>10.0.x</Framework>
-    <Vendor>Daniel Hoffend</Vendor>
-    <URL>http://www.dotlan.net/</URL>
+    <Vendor>GH-Informatik GmbH</Vendor>
+    <URL>https://wotan-monitoring.com</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Outputfilter to override the hardcoded popup window dimensions and position</Description>
     <Description Lang="de">Outputfilter um die fest hinterlegten Popupfenster Größe und Position zu überschreiben</Description>
