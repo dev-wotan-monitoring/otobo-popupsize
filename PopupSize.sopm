@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otobo_package version="1.0">
+    <Name>PopupSize</Name>
+    <Version>0.0.1</Version>
+    <Framework>10.0.x</Framework>
+    <Vendor>Daniel Hoffend</Vendor>
+    <URL>http://www.dotlan.net/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Outputfilter to override the hardcoded popup window dimensions and position</Description>
+    <Description Lang="de">Outputfilter um die fest hinterlegten Popupfenster Größe und Position zu überschreiben</Description>
+    <Filelist>
+        <File Permission="664" Location="Kernel/Config/Files/XML/PopupSize.xml" />
+        <File Permission="664" Location="Kernel/Output/HTML/FilterContent/PopupSize.pm" />
+    </Filelist>
+</otobo_package>
