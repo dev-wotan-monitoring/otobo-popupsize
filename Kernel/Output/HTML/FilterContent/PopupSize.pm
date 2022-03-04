@@ -1,4 +1,3 @@
-# --
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Kernel/Output/HTML/FilterContent/PopupSize.pm
@@ -59,12 +58,15 @@ Core.App.Ready(function () {
         // support percentage
         if (popup["Width"].match(/%$/)) {
             popup["Width"] = window.screen.availWidth * (parseInt(popup["Width"]) / 100);
+        }else{
+            popup["Width"] = parseInt( popup["Width"] );
         }
         if (popup["Height"].match(/%$/)) {
             popup["Height"] = window.screen.availHeight * (parseInt(popup["Height"]) / 100);
+        }else{
+            popup["Height"] = parseInt( popup["Height"] );
         }
     ';
-
     if ($Center) {
         $JSOutput .= '
         // set position
